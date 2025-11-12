@@ -1,0 +1,23 @@
+{
+  "name": "bedrock-training-application",
+  "version": "1.0.0",
+  "description": "ECS task application for processing training data and Bedrock model training",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-athena": "^3.450.0",
+    "@aws-sdk/client-bedrock": "^3.450.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.450.0",
+    "@aws-sdk/client-s3": "^3.450.0",
+    "@aws-sdk/client-sns": "^3.450.0",
+    "html-to-text": "^9.0.5"
+  },
+  "devDependencies": {
+    "@types/html-to-text": "^9.0.4",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

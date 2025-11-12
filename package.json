@@ -1,0 +1,21 @@
+{
+  "name": "aws-bedrock-training-infrastructure",
+  "version": "1.0.0",
+  "description": "CDK infrastructure for AI model training pipeline on AWS Bedrock",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "deploy": "cdk deploy",
+    "synth": "cdk synth"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.100.0",
+    "constructs": "^10.0.0",
+    "@aws-sdk/client-cloudwatch-logs": "^3.450.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

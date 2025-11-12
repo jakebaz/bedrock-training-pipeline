@@ -1,0 +1,38 @@
+# CDK
+cdk.out/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# TypeScript
+*.js
+!*.config.js
+*.js.map
+*.d.ts
+
+# Build outputs
+dist/
+lib/**/*.js
+lib/**/*.d.ts
+bin/**/*.js
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# App
+app/node_modules/
+app/dist/
+app/*.log
+
